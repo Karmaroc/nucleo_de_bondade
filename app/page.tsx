@@ -62,16 +62,6 @@ export default function Home() {
 
       <header id="hero">
         <div className="hero-bg" aria-hidden="true">
-          <video
-            className="hero-bg-video"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="auto"
-          >
-            <source src="/universo.mp4" type="video/mp4" />
-          </video>
           <div className="hero-bg-overlay"></div>
         </div>
         <p className="hero-eyebrow">Uma missão viva</p>
@@ -303,17 +293,7 @@ export default function Home() {
 
       <section id="join">
         <div className="join-bg" aria-hidden="true">
-          <video
-            className="join-bg-video"
-            autoPlay
-            muted
-            loop
-            playsInline
-            preload="auto"
-          >
-            <source src="/planeta.mp4" type="video/mp4" />
-          </video>
-        </div>
+                  </div>
         <div className="join-inner">
           <div className="reveal">
             <div className="deco-rule deco-rule-center">
